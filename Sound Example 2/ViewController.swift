@@ -7,19 +7,41 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
+    
+    private var player: AVAudioPlayer!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let soundURL = NSBundle.mainBundle().URLForResource("I can't help falling in love with You", withExtension: "mp3")
+        do {
+            try player = AVAudioPlayer(contentsOfURL: soundURL!)
+        }catch {
+            print("Error loading the sound file")
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func play() {
+        if !player.playing {
+            player.play()
+        }
     }
 
-
+    @IBAction func pause() {
+        if player.playing {
+            player.pause()
+        }
+    }
+    
+    @IBAction func stop() {
+        if player.playing {
+            player.stop()
+            player.currentTime = 0
+        }
+    }
 }
 

@@ -12,6 +12,8 @@
 		41E335771C4596A100751E3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E335751C4596A100751E3D /* Main.storyboard */; };
 		41E335791C4596A100751E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E335781C4596A100751E3D /* Assets.xcassets */; };
 		41E3357C1C4596A100751E3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E3357A1C4596A100751E3D /* LaunchScreen.storyboard */; };
+		41E335841C45977800751E3D /* I can't help falling in love with You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 41E335831C45977800751E3D /* I can't help falling in love with You.mp3 */; };
+		41E335861C45988A00751E3D /* septimo mes de novios.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E335851C45988A00751E3D /* septimo mes de novios.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		41E335781C4596A100751E3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41E3357B1C4596A100751E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41E3357D1C4596A100751E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E335831C45977800751E3D /* I can't help falling in love with You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I can't help falling in love with You.mp3"; sourceTree = "<group>"; };
+		41E335851C45988A00751E3D /* septimo mes de novios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "septimo mes de novios.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		41E335701C4596A100751E3D /* Sound Example 2 */ = {
 			isa = PBXGroup;
 			children = (
+				41E335851C45988A00751E3D /* septimo mes de novios.png */,
+				41E335831C45977800751E3D /* I can't help falling in love with You.mp3 */,
 				41E335711C4596A100751E3D /* AppDelegate.swift */,
 				41E335731C4596A100751E3D /* ViewController.swift */,
 				41E335751C4596A100751E3D /* Main.storyboard */,
@@ -124,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				41E3357C1C4596A100751E3D /* LaunchScreen.storyboard in Resources */,
+				41E335841C45977800751E3D /* I can't help falling in love with You.mp3 in Resources */,
+				41E335861C45988A00751E3D /* septimo mes de novios.png in Resources */,
 				41E335791C4596A100751E3D /* Assets.xcassets in Resources */,
 				41E335771C4596A100751E3D /* Main.storyboard in Resources */,
 			);
